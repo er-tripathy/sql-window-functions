@@ -1,0 +1,2 @@
+/*Print total salary*/
+select *, sum(salary) from emp;
