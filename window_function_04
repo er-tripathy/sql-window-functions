@@ -1,0 +1,4 @@
+/*Print total salary wtih every row*/
+select *,
+sum(salary) OVER() as total_salary
+from emp;
