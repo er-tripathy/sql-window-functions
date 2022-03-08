@@ -1,0 +1,2 @@
+/*Print total salary per job category*/
+select job, sum(salary) from emp group by job;
